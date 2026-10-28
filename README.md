@@ -2,6 +2,8 @@
 
 **A multi-class classification system that flags at-risk public trees in Dublin, enabling proactive inspection scheduling and safer streets.**
 
+> **Why this problem.** Most of the trees that cause damage were in poor condition long before they fell. The council already holds the data to spot them; what it lacks is a way to rank 16,000 trees so inspectors visit the right ones first.
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.x-orange.svg)
 ![Domain](https://img.shields.io/badge/Domain-Smart%20City%20%7C%20Public%20Sector-2e7d32.svg)
@@ -72,7 +74,7 @@ Both models compared on accuracy and F1-macro, with full per-class classificatio
 ## Repository Structure
 
 ```
-dublin-tree-health/
+dublin_trees/
 ├── README.md                     # You are here
 ├── notebooks/
 │   └── dublin_tree_health_classification.ipynb   # Full analysis, EDA to evaluation
@@ -94,8 +96,8 @@ dublin-tree-health/
 
 ```bash
 # 1. Clone
-git clone https://github.com/<your-username>/dublin-tree-health.git
-cd dublin-tree-health
+git clone https://github.com/hopeocholi/dublin_trees.git
+cd dublin_trees
 
 # 2. Install dependencies
 pip install -r requirements.txt
